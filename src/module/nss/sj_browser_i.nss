@@ -112,7 +112,8 @@ void SJ_Browser_DisplayAgain(object oPC);
 void SJ_Browser_ForcedCache(object oPC);
 
 // Forces sColumn in s2DA to be cached.
-void SJ_Browser_ForcedCacheColumn(object oPC, string s2DA, string sColumn);
+//void SJ_Browser_ForcedCacheColumn(object oPC, string s2DA, string sColumn);
+void SJ_Browser_ForcedCacheColumn(object oPC, string s2DA, string sColumn, int bValidityCheck = FALSE);
 
 // Returns TRUE if the VFX in nRow of sSource matches the filter critera.
 int SJ_Browser_GetIsMatch(string sSource, string sFilter, int nRow);
@@ -367,13 +368,13 @@ void SJ_Browser_DisplayAgain(object oPC)
 
 void SJ_Browser_ForcedCache(object oPC)
 {
-    // AOE: label only
+    // AOE: cache SHAPE for counting validity
     AssignCommand(OBJECT_SELF,
-        SJ_Browser_ForcedCacheColumn(oPC, SJ_2DA_AOE, "LABEL"));
-
-    // VFX: label only
+        SJ_Browser_ForcedCacheColumn(oPC, SJ_2DA_AOE, "SHAPE", TRUE));
+ 
+    // VFX: cache Type_FD for counting validity  
     AssignCommand(OBJECT_SELF,
-        SJ_Browser_ForcedCacheColumn(oPC, SJ_2DA_VFX, "Label"));
+        SJ_Browser_ForcedCacheColumn(oPC, SJ_2DA_VFX, "Type_FD", TRUE));
 }
 
 
@@ -387,30 +388,54 @@ void SJ_Browser_ForcedCache(object oPC)
     AssignCommand(OBJECT_SELF, SJ_Browser_ForcedCacheColumn(oPC, SJ_2DA_VFX, "Type_FD"));
 } */
 
-void SJ_Browser_ForcedCacheColumn(object oPC, string s2DA, string sColumn)
+void SJ_Browser_ForcedCacheColumn(object oPC, string s2DA, string sColumn, int bValidityCheck = FALSE)
 {
-    int nRow = -1;
+    int nRow;
     string sCell;
-
-    while(TRUE)
+    int nValidCount = 0;
+    int nMaxRow = (s2DA == SJ_2DA_VFX) ? 1335 : 10000;  // Cap VFX at 1335 for PRC8
+ 
+    if(bValidityCheck)
     {
-        sCell = Get2DAString(s2DA, sColumn, ++nRow);
-
-        if(sCell == "")
+        // Count ALL rows with valid data in validity column
+        string sValidityCol = (s2DA == SJ_2DA_VFX) ? "Type_FD" : "SHAPE";
+        
+        for(nRow = 0; nRow <= nMaxRow; nRow++)
         {
-            break;
+            string sValidityCell = Get2DAString(s2DA, sValidityCol, nRow);
+            
+            if(sValidityCell != "")
+            {
+                nValidCount = nRow + 1;  // Track highest valid row (1-based)
+            }
+        }
+        
+        nRow = nValidCount;  // Use this as our count
+    }
+    else
+    {
+        // Regular caching - stop at blank in specified column
+        nRow = -1;
+        while(TRUE)
+        {
+            nRow++;
+            sCell = Get2DAString(s2DA, sColumn, nRow);
+            
+            if(sCell == "")
+            {
+                break;
+            }
         }
     }
-
+ 
     if(GetLocalInt(oPC, SJ_VAR_BROWSER_COUNT + s2DA) == 0)
     {
         SetLocalInt(oPC, SJ_VAR_BROWSER_COUNT + s2DA, nRow);
-
+ 
         string sSource = (s2DA == SJ_2DA_AOE) ? "AOE" : "VFX";
         SendMessageToPC(oPC, sSource + " Count: " + IntToString(nRow));
     }
 }
-
 
 /* void SJ_Browser_ForcedCacheColumn(object oPC, string s2DA, string sColumn)
 {
