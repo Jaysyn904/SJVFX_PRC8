@@ -1,1 +1,0 @@
-nasher unpack tophak --verbose -y

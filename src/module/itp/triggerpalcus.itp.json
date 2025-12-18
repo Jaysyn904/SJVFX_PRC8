@@ -1,0 +1,449 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 5
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 1082
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 6
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Barracks"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_barracks"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Black Archer Creek"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wol_a_bbbcreek"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Black Archer Enter"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wol_a_bbbenter"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Books"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_books"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cave Explore"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_cave_exp"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Change"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_change"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Courtyard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_courtyard"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dustblight"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_blight"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dymondheart Enter"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wol_a_dyenter"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Filtrator"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_filtrator"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Forge"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_forge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Foyer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_foyer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hidden Cave"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_cave_ent"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hollow Shell"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_shell"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mod Enter"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_enter"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Oil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_oil"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_ruins"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Schooner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_schooner"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Smelter Office"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_office"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Taint"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_taint"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Vault"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_vault"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Well"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_well"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Xeno"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bdd_xeno"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 6790
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 16
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 9129
+        }
+      },
+      {
+        "__struct_id": 0,
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 0
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "PRC NoTeleport Area Trigger "
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "prc_no_teleport"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 6688
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 1
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 6689
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 2
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 6690
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 6691
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 4
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 6692
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 6687
+        }
+      },
+      {
+        "__struct_id": 0,
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 11
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 53181
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 12
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 2255
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 13
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 2256
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 14
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 2257
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 15
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 53182
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 5563
+        }
+      }
+    ]
+  }
+}

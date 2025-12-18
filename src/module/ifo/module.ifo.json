@@ -1,0 +1,672 @@
+{
+  "__data_type": "IFO ",
+  "Expansion_Pack": {
+    "type": "word",
+    "value": 3
+  },
+  "Mod_Area_list": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "thequietofthemin"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "ruinedminds001"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "prc_maze_01"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "mordmagman06"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "mordmagman05"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "mordmagman04"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "mordmagman03"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "mordmagman02"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "mordmagman01"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "limbo001"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "frozentimes"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "frostedpits"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "ey_dpcon_erewood"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "desolateanddespa"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "vfxbrower"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "bdd_basinrim"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "bdd_cave"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "bdd_smelter"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "wol_a_bbb"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "wol_a_dymond"
+        }
+      }
+    ]
+  },
+  "Mod_Creator_ID": {
+    "type": "int",
+    "value": 2
+  },
+  "Mod_CustomTlk": {
+    "type": "cexostring",
+    "value": "prc8_consortium"
+  },
+  "Mod_CutSceneList": {
+    "type": "list",
+    "value": []
+  },
+  "Mod_DawnHour": {
+    "type": "byte",
+    "value": 6
+  },
+  "Mod_DefaultBic": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Visual Effects Browser\nby Sunjammer\n\nAllows you to browse all supported visual effects and area-of-effect effects.  Include various pre-defined filters and allows you to search by keywords."
+    }
+  },
+  "Mod_DuskHour": {
+    "type": "byte",
+    "value": 18
+  },
+  "Mod_Entry_Area": {
+    "type": "resref",
+    "value": "vfxbrower"
+  },
+  "Mod_Entry_Dir_X": {
+    "type": "float",
+    "value": 1.0
+  },
+  "Mod_Entry_Dir_Y": {
+    "type": "float",
+    "value": 0.0
+  },
+  "Mod_Entry_X": {
+    "type": "float",
+    "value": 5.0
+  },
+  "Mod_Entry_Y": {
+    "type": "float",
+    "value": 14.0
+  },
+  "Mod_Entry_Z": {
+    "type": "float",
+    "value": 0.0
+  },
+  "Mod_Expan_List": {
+    "type": "list",
+    "value": []
+  },
+  "Mod_GVar_List": {
+    "type": "list",
+    "value": []
+  },
+  "Mod_HakList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "sjvfx_prc8_top"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_2das"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_scripts"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_nsb"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_spells"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_epicspells"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_psionics"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_race"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_textures"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_misc"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "prc8_craft2das"
+        }
+      }
+    ]
+  },
+  "Mod_IsSaveGame": {
+    "type": "byte",
+    "value": 0
+  },
+  "Mod_MinGameVer": {
+    "type": "cexostring",
+    "value": "1.89"
+  },
+  "Mod_MinPerHour": {
+    "type": "byte",
+    "value": 2
+  },
+  "Mod_Name": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "SJ - VFX Browser 104"
+    }
+  },
+  "Mod_OnAcquirItem": {
+    "type": "resref",
+    "value": "hif_onacquireite"
+  },
+  "Mod_OnActvtItem": {
+    "type": "resref",
+    "value": "hif_onactivateit"
+  },
+  "Mod_OnClientEntr": {
+    "type": "resref",
+    "value": "prc_onenter"
+  },
+  "Mod_OnClientLeav": {
+    "type": "resref",
+    "value": "prc_onleave"
+  },
+  "Mod_OnCutsnAbort": {
+    "type": "resref",
+    "value": "prc_oncutabort"
+  },
+  "Mod_OnHeartbeat": {
+    "type": "resref",
+    "value": "prc_onheartbeat"
+  },
+  "Mod_OnModLoad": {
+    "type": "resref",
+    "value": "hif_onmoduleload"
+  },
+  "Mod_OnModStart": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnNuiEvent": {
+    "type": "resref",
+    "value": "prc_onplayernui"
+  },
+  "Mod_OnPlrChat": {
+    "type": "resref",
+    "value": "prc_onplayerchat"
+  },
+  "Mod_OnPlrDeath": {
+    "type": "resref",
+    "value": "hif_onplayerdeat"
+  },
+  "Mod_OnPlrDying": {
+    "type": "resref",
+    "value": "hif_onplayerdyin"
+  },
+  "Mod_OnPlrEqItm": {
+    "type": "resref",
+    "value": "hif_onplayerequi"
+  },
+  "Mod_OnPlrGuiEvt": {
+    "type": "resref",
+    "value": "prc_onplayergui"
+  },
+  "Mod_OnPlrLvlUp": {
+    "type": "resref",
+    "value": "prc_levelup"
+  },
+  "Mod_OnPlrRest": {
+    "type": "resref",
+    "value": "hif_onplayerrest"
+  },
+  "Mod_OnPlrTarget": {
+    "type": "resref",
+    "value": "prc_onplaytarget"
+  },
+  "Mod_OnPlrTileAct": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrUnEqItm": {
+    "type": "resref",
+    "value": "hif_onplayeruneq"
+  },
+  "Mod_OnSpawnBtnDn": {
+    "type": "resref",
+    "value": "hif_onplayerresp"
+  },
+  "Mod_OnUnAqreItem": {
+    "type": "resref",
+    "value": "hif_onunaquireit"
+  },
+  "Mod_OnUsrDefined": {
+    "type": "resref",
+    "value": "prc_onuserdef"
+  },
+  "Mod_PartyControl": {
+    "type": "int",
+    "value": 0
+  },
+  "Mod_StartDay": {
+    "type": "byte",
+    "value": 1
+  },
+  "Mod_StartHour": {
+    "type": "byte",
+    "value": 13
+  },
+  "Mod_StartMonth": {
+    "type": "byte",
+    "value": 6
+  },
+  "Mod_StartMovie": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_StartYear": {
+    "type": "dword",
+    "value": 1372
+  },
+  "Mod_Tag": {
+    "type": "cexostring",
+    "value": "MODULE"
+  },
+  "Mod_UUID": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Mod_Version": {
+    "type": "dword",
+    "value": 3
+  },
+  "Mod_XPScale": {
+    "type": "byte",
+    "value": 10
+  },
+  "VarTable": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_PNP_SOMATIC_ITEMS"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_PNP_SOMATIC_COMPONENTS"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_FAST_TRAVEL_SPEED"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_PNP_REST_HEALING"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_PNP_REST_LIMIT"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_XP_USE_SIMPLE_RACIAL_HD_NO_FREE_XP"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_XP_USE_SIMPLE_RACIAL_HD"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_XP_USE_SIMPLE_LA"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_MULTISUMMON"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_CHICKEN_INFESTED"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_BARD_LIGHT_ARMOR_SPELLCASTING"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_PNP_DISARM"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_ENABLE_SPELL_SHARING"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_XP_USE_SETXP"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "PRC_PNP_SHIFTER_BONUS"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 50
+        }
+      }
+    ]
+  }
+}
