@@ -1,0 +1,1 @@
+nasher unpack default --verbose --removeDeleted:false

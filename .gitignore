@@ -1,0 +1,10 @@
+# Ignore packed files
+*.erf
+*.hak
+*.mod
+*.ndb
+*.nwm
+
+# Ignore the nasher directory
+.nasher/
+/_release
